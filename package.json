@@ -1,12 +1,24 @@
 {
+  "name": "FVM-Storage-Automation",
+  "version": "1.0.0",
+  "description": "Storage Automation using the Filecoin Virtual Machine",
+  "license": "MIT",
+  "scripts": {
+
+  },
   "dependencies": {
-    "hardhat": "^2.12.6"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@glif/filecoin-address": "^2.0.20",
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
-    "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
-    "hardhat-deploy": "^0.11.22"
+    "hardhat": "^2.12.6",
+    "hardhat-deploy": "^0.11.22",
+    "prettier": "^2.8.3"
   }
 }
